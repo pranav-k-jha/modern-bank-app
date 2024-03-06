@@ -15,9 +15,9 @@ const App = () => (
       </div>
     </div>
     <p class="bg-red-200 text-red-700 p-4 text-center font-bold">
-  Under development - This website is currently being developed by me.
-</p>
-
+      👨‍💻 Currently under construction! 🚧 <br />
+      Just me tinkering with the code. Stay tuned for updates! 🚀
+    </p>
   </div>
 );
 
