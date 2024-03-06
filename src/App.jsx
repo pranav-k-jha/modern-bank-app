@@ -4,10 +4,20 @@ import styles from "./style";
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>Navbar</div>
+    </div>
+    <div className={`bg-primary ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>Hero</div>
+    </div>
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        Navbar
+        Stats Business Billing CardDeal Testinomials Clients CTA Footer
       </div>
     </div>
+    <p class="bg-red-200 text-red-700 p-4 text-center font-bold">
+  Under development - This website is currently being developed by me.
+</p>
+
   </div>
 );
 
