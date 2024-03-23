@@ -31,10 +31,10 @@ const App = () => (
         <Clients /> <CTA /> <Footer />
       </div>
     </div>
-    <p className="bg-red-200 text-red-700 p-4 text-center font-bold">
-      👨‍💻 Currently under construction! 🚧 <br />
-      Just me tinkering with the code. Stay tuned for updates! 🚀
-    </p>
+    <div className="mt-4 w-full flex-center bg-gradient-to-r from-blue-500 to-purple-800 rounded-lg p-4 animate-pulse">
+        <p className="text-center text-white">👨‍💻 Currently under construction... 🚧 <br />
+Just me tinkering with the code. Stay tuned for updates! 🚀</p>
+      </div>
   </div>
 );
 
